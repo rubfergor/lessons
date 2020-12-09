@@ -1,2 +1,2 @@
 # lessons
-Yay, i made it!
+Yay, I made it!
