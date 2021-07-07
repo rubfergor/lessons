@@ -1,0 +1,22 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "mi primer paquete",
+  "main": "EjercicioLM1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubfergor/lessons.git"
+  },
+  "author": "LM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubfergor/lessons/issues"
+  },
+  "homepage": "https://github.com/rubfergor/lessons#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
