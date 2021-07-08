@@ -8,7 +8,7 @@ const rashid = {
     nivel: '18',
     poderDivino: '0%',
     esGuapo: false,
-    "cuanto-dinero-tiene": '0'
+    "cuanto-dinero-tiene": '0 monedas'
 }
 
 
@@ -16,4 +16,5 @@ const prop = (objeto, categoria) => {
     return objeto[categoria]
 }
 
-console.log(prop(rashid, 'nivel'))
+console.log(prop(baleny, 'poderDivino'))
+console.log(prop(rashid, 'cuanto-dinero-tiene'))

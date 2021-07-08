@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rubfergor/lessons#readme",
   "dependencies": {
+    "date-fns": "^2.22.1",
     "ramda": "^0.27.1"
   }
 }
