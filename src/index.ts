@@ -33,5 +33,10 @@
 //import {getUsers} from './utils';
 //console.log(getUsers());
 
-import {aggregateBalance as balance} from './utils';
-console.log(balance());
+import {User} from './libs';
+const user = new User({
+  email: 'lm@example.org',
+  balance: 0,
+  isVip: false
+});
+console.log(user.setVIP());

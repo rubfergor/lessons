@@ -26,4 +26,12 @@ const impactaDadoDe20 = (numDeTiradas) => {
   return cadena;
 };
 
-console.log(impactaDadoDe20(25));
+const fns = require('date-fns');
+
+const registerDate = fns
+  .add(new Date(), {
+    years: Math.floor(Math.random() * (0 - -5 + 1) + -5)
+  })
+  .toISOString();
+
+console.log(registerDate);

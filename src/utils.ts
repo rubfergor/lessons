@@ -48,7 +48,6 @@ export const createUser = (nombre: string) => {
   };
   return objectUser;
 };
-//export const createUser = (name: string) => ({})
 
 /**
  * Función de cadena de usuarios
